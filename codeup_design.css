@@ -24,3 +24,14 @@ body {
     border-style: solid;
     border-radius: 10%;
 }
+
+.r-circle{
+    width: 105px;
+    height: 105px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display:flex;
+    border: solid 4px white;
+}
+
+
