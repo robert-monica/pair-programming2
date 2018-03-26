@@ -6,6 +6,16 @@ body {
     position: relative;
 
 }
+
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+h1{
+
+    font-family: 'Anton', sans-serif;
+}
+
 .logo {
     position: absolute;
     left: 0;
@@ -18,11 +28,12 @@ body {
     height: 105px;
 }
 
-.bordermio {
-    border-width: 10px;
-    border-color:  #E6E6E6;
-    border-style: solid;
-    border-radius: 10%;
+.titlecircle{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 15px;
 }
 
 .r-circle{
@@ -97,34 +108,48 @@ body {
 }
 
 .littleimages {
-    float: left;
     width: 40px;
     height: 26px;
 }
 
-
 .titleimg {
     font-size: x-small;
 }
+
 @media screen and (max-width: 500px) {
     h1, h2, p {
         font-size: 1em;
         margin: auto;
         text-align: center;
-        }
+    }
 
     .notimg {
         display: none;
-        }
+    }
 
     .breakline {
         display: none;
-        }
-    .sidebar {
-        display: none;
     }
 
-@media screen and (min-width: 920px ) {
+
+}
+
+@media screen and (max-width: 1020px){
+
+    .featured, .featured > image{
+        float:left;
+        text-align: left;
+        margin: 5px;
+        padding: 5px;
+    }
+    .sidebar {
+        display: none;
+        height: 1000px;
+    }
+
+}
+
+@media screen and (min-width: 920px) {
 
     .titlebottom {
         height: 50px;
@@ -132,8 +157,7 @@ body {
         font-size: small;
         margin-left: 50px;
     }
-    .sidebar {
-        display: none;
+
+
+
 }
-
-
